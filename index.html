@@ -8,6 +8,13 @@
       $(function(){
         $("p").css("color","red");
       });
+    $("#start").click(function(){
+      $("#square").animate({ 
+            width: "80%",
+            marginLeft: "0.8in",
+          }, 
+        1500 );
+    });
   </script>
 </head>
 <body>
@@ -19,11 +26,4 @@
   background-color:blue; 
   width:120px; 
   }
-  
-  $("#start").click(function(){
-  $("#square").animate({ 
-      width: "80%",
-      marginLeft: "0.8in",
-    }, 1500 );
-  });
 </html>
