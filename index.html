@@ -6,16 +6,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript">
       $(function(){
-        $("p").css("color","red");
+          $("p").css("color","red");
+          $("#start").click(function(){
+            $("#square").animate({ 
+                  width: "80%",
+                  marginLeft: "0.8in",
+                  borderWidth: "10px"
+                }, 
+              1500 );
+          });
       });
-    $("#start").click(function(){
-      $("#square").animate({ 
-            width: "80%",
-            marginLeft: "0.8in",
-            borderWidth: "10px"
-          }, 
-        1500 );
-    });
   </script>
   <style>
     div { 
