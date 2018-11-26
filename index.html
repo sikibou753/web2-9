@@ -12,5 +12,19 @@
 </head>
 <body>
   <p>てすと</p>
+  <button id="go">» Run</button>
+<div id="block"</div>
+  div { 
+  background-color:blue; 
+  width:120px; 
+}
+  
+  $("#go").click(function(){
+  $("#block").animate({ 
+    width: "70%",
+    marginLeft: "0.6in",
+    fontSize: "3em"
+  }, 1500 );
+});
 </body>
 </html>
